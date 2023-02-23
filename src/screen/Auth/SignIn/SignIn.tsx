@@ -8,13 +8,9 @@ import {appIcons, appImages} from '../../../shared/exporter';
 import {styles} from './styles';
 import {AppButton} from '../../../component';
 
-type nav = NativeStackNavigationProp<AuthStackParamsList, 'SignIn'>;
-
-interface Props {}
-
-const SignIn: FC<Props> = () => {
+const SignIn: FC = () => {
   const navigation =
-    useNavigation<NativeStackNavigationProp<AuthStackParamsList>>();
+    useNavigation<NativeStackNavigationProp<AuthStackParamsList, 'SignIn'>>();
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');

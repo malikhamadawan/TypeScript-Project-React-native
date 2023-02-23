@@ -16,7 +16,7 @@ function AuthStack() {
     <Stack.Navigator
       initialRouteName="SignIn"
       screenOptions={{headerShown: false}}>
-      <Stack.Screen name="SignIn" component={SignIn}  />
+      <Stack.Screen name="SignIn" component={SignIn} />
       <Stack.Screen name="SignUp" component={SignUp} />
     </Stack.Navigator>
   );

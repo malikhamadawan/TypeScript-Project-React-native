@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "831049734282",
+    "project_id": "vs-notification-fd6fb",
+    "storage_bucket": "vs-notification-fd6fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831049734282:android:463ad5a667ce99dd317573",
+        "android_client_info": {
+          "package_name": "com.mytypescriptproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "831049734282-mlt52lnlv33s27ugcljhvmpn94dke3ch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5Pjc6Iv1xNlxXmZqKafkUs48heVSYfzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "831049734282-mlt52lnlv33s27ugcljhvmpn94dke3ch.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
